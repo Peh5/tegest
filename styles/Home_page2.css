@@ -1,0 +1,171 @@
+.Version{
+   font-size: 11rem;
+   text-align: center;
+}
+.Version_but{
+    display: block;        
+    width: 100%;            
+    background-color: white;
+    border: none;
+    justify-content: center;
+    color: black;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+.Version_but:hover{
+    background-color: rgb(33, 37, 41);
+    color: white;
+}
+.card-img-top{
+    font-size: 8rem;
+    text-align: center;
+}
+.Vers{
+    display: flex;
+    justify-content: center;
+}
+button{
+    border-color: rgb(33, 37, 41);;
+    background-color: white;
+    justify-content: center;
+    color: black;
+    margin: 5px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+button:hover{
+    background-color: rgb(33, 37, 41);
+    color: white;
+}
+@media (max-width: 755px){
+    .card-img-top{
+        font-size: 3rem;
+        max-height: 3rem;
+    }
+    .card{
+    }
+    .Version{
+        font-size: 2rem;
+    }}
+@media  (min-width: 768px) and (max-width: 1024px){
+    .card-img-top{
+        font-size: 5rem;
+        max-height: 7rem;
+    }
+    .Version{
+        font-size: 6rem;
+    }
+}
+
+.й{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.ц{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.у{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.к{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.е{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.н{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.г{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.щ{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.з{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.х{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.ъ{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.ф{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.ы{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.в{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.а{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.п{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+/* @media  (min-width: 1025px) and (max-width: 2000px){
+    .card-img-top{
+        font-size: 6rem;
+        max-height: 7rem;
+    }
+    .Version{
+        font-size: 6rem;
+    }
+}  ПРОБЛЕМА С 1920 НА 1080*/
+@media (min-width: 2000px) and (max-width: 3000px){
+    .card-img-top{
+        font-size: 11rem;
+        max-height: 15rem;
+    }
+    .Version{
+        font-size: 9rem;
+    }
+}
