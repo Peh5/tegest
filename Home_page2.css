@@ -1,0 +1,324 @@
+.Version{
+   font-size: 11rem;
+   text-align: center;
+}
+.Version_but{
+    display: block;        
+    width: 100%;            
+    background-color: white;
+    border: none;
+    justify-content: center;
+    color: black;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+.Version_but:hover{
+    background-color: rgb(33, 37, 41);
+    color: white;
+}
+.card-img-top{
+    font-size: 8rem;
+    text-align: center;
+}
+.Vers{
+    display: flex;
+    justify-content: center;
+}
+button{
+    border-color: rgb(33, 37, 41);;
+    background-color: white;
+    justify-content: center;
+    color: black;
+    margin: 5px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+button:hover{
+    background-color: rgb(33, 37, 41);
+    color: white;
+}
+@media (max-width: 755px){
+    .card-img-top{
+        font-size: 3rem;
+        max-height: 3rem;
+    }
+    .card{
+    }
+    .Version{
+        font-size: 2rem;
+    }}
+@media  (min-width: 768px) and (max-width: 1024px){
+    .card-img-top{
+        font-size: 5rem;
+        max-height: 7rem;
+    }
+    .Version{
+        font-size: 6rem;
+    }
+}
+
+.й{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.ц{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.у{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.к{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.е{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.н{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.г{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.щ{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.з{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.х{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.ъ{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.ф{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.ы{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.в{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.а{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.п{
+    margin: 1rem;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.my-modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    z-index: -1;
+    opacity: 0;
+    transition: all .09s ease-out;
+}
+.my-modal .my-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    opacity: 0.7;
+    z-index: 0;
+}
+.my-modal.show{
+    visibility: visible;
+    z-index: 1000;
+    opacity: 1;
+}
+.my-modal-window{
+    position: relative;
+    z-index: 2;
+    width: 550px;
+    box-shadow: 0 10px 15px rgba(0,0,0, .4);
+    background-color: #fff;
+    padding: 30px;
+}
+.ui{
+    text-decoration: none;
+    color: rgb(33, 37, 41);
+}
+.qw{
+    text-decoration: none;
+    color: rgb(33, 37, 41);
+    margin-right: 10px;
+}
+.er{
+text-decoration: none;
+    color: rgb(33, 37, 41);
+}
+.ty{
+    text-decoration: none;
+    color: rgb(33, 37, 41);
+    margin-right: 10px;
+}
+.op{
+      text-decoration: none;
+    color: rgb(33, 37, 41);
+    margin-right: 10px;
+}
+.as{
+     text-decoration: none;
+    color: rgb(33, 37, 41);
+    margin-right: 10px;
+}
+.df{
+   text-decoration: none;
+    color: rgb(33, 37, 41); 
+}
+.gh{
+    text-decoration: none;
+    color: rgb(33, 37, 41);
+    margin-right: 10px;
+}
+.jk{
+   text-decoration: none;
+    color: rgb(33, 37, 41);
+    margin-right: 10px; 
+}
+.lz{text-decoration: none;
+    color: rgb(33, 37, 41);}
+/* @media  (min-width: 1025px) and (max-width: 2000px){
+    .card-img-top{
+        font-size: 6rem;
+        max-height: 7rem;
+    }
+    .Version{
+        font-size: 6rem;
+    }
+}  ПРОБЛЕМА С 1920 НА 1080*/
+@media (min-width: 2000px) and (max-width: 3000px){
+    .card-img-top{
+        font-size: 11rem;
+        max-height: 15rem;
+    }
+    .Version{
+        font-size: 9rem;
+    }
+}
+@media screen and (min-aspect-ratio: 4/3) and (max-aspect-ratio: 4/3), 
+       (width: 1024px) and (height: 768px),
+       (width: 1280px) and (height: 960px) {
+
+    .card-img-top {
+        font-size: 4rem !important; /* Уменьшаем гигантский заголовок */
+        max-height: 5rem;
+        padding: 10px 0;
+    }
+
+    .Version {
+        font-size: 4rem !important; /* Уменьшаем кнопку ЕГЭ */
+    }
+
+    button {
+        font-size: 1.1rem; /* Делаем кнопки внутри карточек читаемыми */
+        padding: 5px 10px;
+    }
+
+    /* Настройка навигационного меню, чтобы ссылки не вылезали за экран */
+    .bg-dark.p-4 a {
+        margin: 0.5rem !important;
+        font-size: 1.2rem !important;
+        display: inline-block;
+    }
+}
+
+/* Общее исправление для средних экранов (планшеты и старые мониторы) */
+@media (min-width: 768px) and (max-width: 1280px) {
+    .card-img-top {
+        font-size: 3.5rem;
+    }
+    .Version {
+        font-size: 5rem;
+    }
+    /* Заставляем сетку выстраиваться по 2 элемента в ряд для читаемости */
+    .col-lg-3, .col-lg-4 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+/* Адаптация специально под соотношение сторон 4:3 */
+@media screen and (min-aspect-ratio: 4/3) and (max-aspect-ratio: 4/3), 
+       (width: 1024px) and (height: 768px),
+       (width: 1280px) and (height: 960px) {
+
+    /* Уменьшаем гигантские заголовки классов */
+    .card-img-top {
+        font-size: 4rem !important; 
+        max-height: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* Корректируем кнопку ЕГЭ, чтобы она не занимала весь экран по высоте */
+    .Version {
+        font-size: 5rem !important;
+    }
+
+    /* Делаем сетку принудительно по 2 карточки */
+    .row > div {
+        flex: 0 0 auto;
+        width: 50% !important;
+    }
+    
+    /* Уменьшаем отступы в меню, чтобы ссылки не перекрывали друг друга */
+    .bg-dark.p-4 a {
+        margin: 0.5rem !important;
+        font-size: 1.5rem !important;
+    }
+}

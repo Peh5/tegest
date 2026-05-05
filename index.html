@@ -18,21 +18,21 @@
     <div class="collapse" id="navbarToggleExternalContent" data-bs-theme="dark">
         <div class="bg-dark p-4">
             <a class="й" href="">Россия</a>
-            <a class="ц"href="">Азия</a>
-            <a class="у"href="">Америка</a>
-            <a class="к"href="">Африка</a>
-            <a class="е"href="">Океания</a>
-            <a class="н"href="">Европа</a>
-            <a class="г"href="">Австралия</a>
-            <a class="щ"href="">Население</a>
-            <a class="з"href="">Политическая карта</a>
-            <a class="х"href="">Геоэкология</a>
-            <a class="ъ"href="">Мировое хозяйство</a>
-            <a class="ф"href="">Географическая зональность</a>
-            <a class="ы"href="">Природа и ресурсы</a>
-            <a class="в"href="">Воды</a>
-            <a class="а"href="">ЮНЕСКО</a>
-            <a class="п"href="">Экспедиции</a>
+            <a class="ц" href="">Азия</a>
+            <a class="у" href="">Америка</a>
+            <a class="к" href="">Африка</a>
+            <a class="е" href="">Океания</a>
+            <a class="н" href="">Европа</a>
+            <a class="г" href="">Австралия</a>
+            <a class="щ" href="">Население</a>
+            <a class="з" href="">Политическая карта</a>
+            <a class="х" href="">Геоэкология</a>
+            <a class="ъ" href="">Мировое хозяйство</a>
+            <a class="ф" href="">Географическая зональность</a>
+            <a class="ы" href="">Природа и ресурсы</a>
+            <a class="в" href="">Воды</a>
+            <a class="а" href="">ЮНЕСКО</a>
+            <a class="п" href="">Экспедиции</a>
 
         </div>
     </div>
@@ -99,7 +99,7 @@
                     <div class="card-body">
                         <p class="card-text">
                             <button class="эне">Энергетика</button>
-                            <button class="сел">Сельское хохяйство</button>
+                            <button class="сел">Сельское хозяйство</button>
                             <button class="мет">Металлургия</button>
                             <button class="каз">Машиностроение</button>
                             <button class="хим">Химическая промышленность</button>
@@ -112,18 +112,19 @@
                 </div>
             </div>
             <div class="col-lg-4 col-md-6">
-                <div class="card">
-                    <span class="card-img-top">10 класс</span>
-                    <div class="card-body">
-                        <p class="card-text">
-                            <button class="нас">Население</button>
-                            <button class="экс">Политическая карта</button>
-                            <button class="эео">Геоэкология</button>
-                            <button class="хоз">Мировое хохяйство</button>
-                        </p>
-                    </div>
-                </div>
-            </div>
+    <div class="card">
+        <span class="card-img-top">10 класс</span>
+        <div class="card-body">
+            <p class="card-text">
+                <!-- Каждой кнопке — свой уникальный ID в data-easy-toggle -->
+                <button data-easy-toggle="#modalPopulation" data-easy-class="show">Население</button>
+                <button data-easy-toggle="#modalPolitics" data-easy-class="show" class="экс">Политическая карта</button>
+                <button data-easy-toggle="#modalEco" data-easy-class="show" class="эео">Геоэкология</button>
+                <button data-easy-toggle="#modalEconomy" data-easy-class="show" class="хоз">Мировое хозяйство</button>
+            </p>
+        </div>
+    </div>
+</div>
             <div class="col-lg-4 col-md-6">
                 <div class="card">
                     <span class="card-img-top">11 класс</span>
@@ -136,18 +137,89 @@
                             <button class="рф">Россия</button>
                             <button class="евр">Европа</button>
                             <button class="хоз">Австралия</button>
+
                         </p>
                     </div>
                 </div>
             </div>
-    </div>            
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-                integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-                crossorigin="anonymous"></script>
+        </div>
+        <!-- 1. Сначала подключаем Bootstrap -->
+    
+    <div class="Vers">
+        <button class="Version_but"><span class="Version">Версия для ЕГЭ</span></button>
+
+    </div>
+    
+    <!-- 1. Модальное окно: Население -->
+<div id="modalPopulation" class="my-modal">
+    <div class="my-modal-window">
+        <a href="https://motovskikh.ru/workshop/d7riu9er/" class="qw">Топ 15 стран по населению</a>
+        <a href="https://motovskikh.ru/workshop/jdg0ulkk/" class="er">Топ 15 агломераций по численности</a>
+        
+    </div>
+    <div class="my-overlay" data-easy-toggle="#modalPopulation" data-easy-class="show"></div>
 </div>
-<div class="Vers">
-                <button class="Version_but"><span class="Version">Версия для ЕГЭ</span></button>
-            </div>
-</body>
+
+<!-- 2. Модальное окно: Политическая карта -->
+<div id="modalPolitics" class="my-modal">
+    <div class="my-modal-window">
+        <a href="https://motovskikh.ru/workshop/z6lbndam/" class="ty">Топ 15 стран по территории</a>
+        <a href="https://motovskikh.ru/workshop/o4tks4nk/" class="ui">Финансовые центры</a>
+        
+        
+    </div>
+    <div class="my-overlay" data-easy-toggle="#modalPolitics" data-easy-class="show"></div>
+</div>
+
+<!-- 3. Модальное окно: Геоэкология -->
+<div id="modalEco" class="my-modal">
+    <div class="my-modal-window">
+        <a href="https://motovskikh.ru/workshop/8086w3p8/" class="as"> Извесные ЮНЕСКО</a>
+        <a href="https://motovskikh.ru/workshop/d3rsbzxf/" class="df"> Известные ООПТ</a>
+        
+        
+    </div>
+    <div class="my-overlay" data-easy-toggle="#modalEco" data-easy-class="show"></div>
+</div>
+
+<!-- 4. Модальное окно: Мировое хозяйство -->
+<div id="modalEconomy" class="my-modal">
+    <div class="my-modal-window">
+        <a href="https://motovskikh.ru/workshop/8hqu4hvy/" class="op"> Страны ОПЕК</a>
+        <a href="https://motovskikh.ru/workshop/66fgkrqe/" class="gh">Крупнейшие импортёры и экспортёры аквакультур</a>
+        <a href="https://motovskikh.ru/workshop/orwmh4al/" class="jk">Крупнейшие импортёры и экспортёры продуктов животноводства</a>
+        <a href="https://motovskikh.ru/workshop/a12f67k7/" class="lz"> География топливной промышленности</a>
+        
+        
+        
+    </div>
+    <div class="my-overlay" data-easy-toggle="#modalEconomy" data-easy-class="show"></div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- 2. Затем отдельным тегом ваш скрипт EasyToggler -->
+    <script>
+        !function() {
+            "use strict";
+            document.addEventListener("click", function(t) {
+                const e = t.target.closest("[data-easy-toggle]");
+                if (e) {
+                    t.preventDefault();
+                    let a = e.getAttribute("data-easy-toggle"),
+                        s = e.getAttribute("data-easy-class");
+                    try {
+                        document.querySelectorAll("[data-easy-toggle]").forEach(t => {
+                            t.hasAttribute("data-easy-parallel") || t === e || document.querySelector(t.getAttribute("data-easy-toggle")).classList.remove(t.getAttribute("data-easy-class"))
+                        }), document.querySelector(a).classList.toggle(s)
+                    } catch (t) {
+                        console.warn("EasyToggler.js: Блок " + a + " не существует")
+                    }
+                }
+                // ... остальная часть кода ...
+            })
+        }();
+    </script>
+
+    
 
 </html>
